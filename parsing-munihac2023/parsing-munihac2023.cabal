@@ -1,0 +1,17 @@
+cabal-version: 3.0
+name: parsing-munihac2023
+version: 0.1
+author: Andres Löh <andres@well-typed.com>
+build-type: Simple
+
+library
+  default-language: GHC2021
+  build-depends:
+    base,
+    containers,
+    megaparsec ^>= 9.4,
+    parser-combinators,
+    QuickCheck
+  exposed-modules:
+    Parsing
+    Simple
